@@ -1,0 +1,39 @@
+
+body{
+    height: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 23%, rgba(253,247,45,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  div.scrollmenu {
+    margin: 4px, 4px;
+        padding: 4px;
+        width: 1500px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+  }
+
+  .div{
+    height: 100vh;
+    width: 100%;
+    border: antiquewhite solid 5px;
+  }
+
+  div.scrollmenu div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.scrollmenu{
+    display: flex;
+    width: 100%;
+}
